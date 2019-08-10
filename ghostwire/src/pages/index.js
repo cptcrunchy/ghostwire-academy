@@ -8,6 +8,10 @@ import pic2 from '../images/pic02.jpg';
 import pic3 from '../images/pic03.jpg';
 import Sidebar from '../components/Sidebar';
 import Scroll from '../components/Scroll';
+import Form from '../components/Form';
+import SocialMedia from '../components/SocialMedia';
+import ContactEmail from '../components/ContactEmail';
+
 
 const IndexPage = () => (
   <Layout>
@@ -179,81 +183,11 @@ const IndexPage = () => (
             imperdiet est velit quis lorem.
           </p>
           <div className="split style1">
-            <section>
-              <form method="post" action="#">
-                <div className="fields">
-                  <div className="field half">
-                    <label for="name">Name</label>
-                    <input type="text" name="name" id="name" />
-                  </div>
-                  <div className="field half">
-                    <label for="email">Email</label>
-                    <input type="text" name="email" id="email" />
-                  </div>
-                  <div className="field">
-                    <label for="message">Message</label>
-                    <textarea name="message" id="message" rows="5" />
-                  </div>
-                </div>
-                <ul className="actions">
-                  <li>
-                    <a href="/#" className="button submit">
-                      Send Message
-                    </a>
-                  </li>
-                </ul>
-              </form>
-            </section>
+            <Form />
             <section>
               <ul className="contact">
-                <li>
-                  <h3>Address</h3>
-                  <span>
-                    12345 Somewhere Road #654
-                    <br />
-                    Nashville, TN 00000-0000
-                    <br />
-                    USA
-                  </span>
-                </li>
-                <li>
-                  <h3>Email</h3>
-                  <a href="/#">user@untitled.tld</a>
-                </li>
-                <li>
-                  <h3>Phone</h3>
-                  <span>(000) 000-0000</span>
-                </li>
-                <li>
-                  <h3>Social</h3>
-                  <ul className="icons">
-                    <li>
-                      <a href="/#" className="fa-twitter">
-                        <span className="label">Twitter</span>
-                      </a>
-                    </li>
-                    <li>
-                      <a href="/#" className="fa-facebook">
-                        <span className="label">Facebook</span>
-                      </a>
-                    </li>
-                    <li>
-                      <a href="/#" className="fa-github">
-                        <span className="label">GitHub</span>
-                      </a>
-                    </li>
-                    <li>
-                      <a href="/#" className="fa-instagram">
-                        <span className="label">Instagram</span>
-                      </a>
-                    </li>
-                    <li>
-                      <a href="/#" className="fa-linkedin">
-                        <span className="label">LinkedIn</span>
-                      </a>
-                    </li>
-                  </ul>
-                </li>
+                <ContactEmail />
+                <SocialMedia />
               </ul>
             </section>
           </div>
