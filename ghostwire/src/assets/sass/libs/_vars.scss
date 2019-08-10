@@ -33,19 +33,19 @@
 
 // Palette.
 	$palette: (
-		bg:					#316843,
-		bg-alt:				darken(#fbbc59, 5),
+		bg:					#172a3a, // Yankees Blue
+		bg-alt:				#004346, // Warm Black
 		fg:					rgba(255,255,255,0.55),
 		fg-bold:			#ffffff,
 		fg-light:			rgba(255,255,255,0.35),
 		border:				rgba(255,255,255,0.15),
 		border-bg:			rgba(255,255,255,0.05),
-		accent1:			#024217,
-		accent1-alt:		darken(#316843, 10),
-		accent2:			#ff0088,
-		accent2-alt:		darken(#044753, 10),
-		accent3:			#f3d10d,
-		accent3-alt:		darken(#b74e91, 10),
-		accent4:			#2a2a2a,
+		accent1:			#172a3a,
+		accent1-alt:		darken(#172a3a, 10),
+		accent2:			#2f6690, // B'Dazzled Blue
+		accent2-alt:	    #508991, // Steal Teal
+		accent3:			#bfae48, // Brass
+		accent3-alt:		darken(#bfae48, 10),
+		accent4:			#3d3d3d,
 		accent4-alt:		darken(#2a2a2a, 10)
 	);
