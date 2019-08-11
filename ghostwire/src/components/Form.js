@@ -3,26 +3,32 @@ import '../assets/sass/main.scss';
 
 const Form = () => (
     <section>
-        <form method="post" action="#">
+        <form method="post" data-netlify="true" action="/generic">
             <div className="fields">
                 <div className="field half">
-                <label for="name">Name</label>
-                <input type="text" name="name" id="name" />
+                    <label for="name">Name</label>
+                    <input type="text" name="name" id="name" />
                 </div>
                 <div className="field half">
-                <label for="email">Email</label>
-                <input type="text" name="email" id="email" />
+                    <label for="email">Email</label>
+                    <input type="text" name="email" id="email" />
                 </div>
                 <div className="field">
-                <label for="message">Message</label>
-                <textarea name="message" id="message" rows="5" />
+                    <label for="category">Category</label>
+                    <select>
+                        <option value="Select">Select</option>
+                        <option value="volunteer">Volunteer</option>
+                        <option value="Enroll">Enroll</option>
+                    </select>
+                </div>
+                <div className="field">
+                    <label for="message">Message</label>
+                    <textarea name="message" id="message" rows="5" />
                 </div>
             </div>
             <ul className="actions">
                 <li>
-                <a href="/#" className="button submit">
-                    Send Message
-                </a>
+                    <button type="submit" className="button submit">Send</button>
                 </li>
             </ul>
         </form>
