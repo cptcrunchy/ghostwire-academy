@@ -14,14 +14,6 @@ const Form = () => (
                     <input type="text" name="email" id="email" />
                 </div>
                 <div className="field">
-                    <label for="category">Category</label>
-                    <select>
-                        <option value="Select">Select</option>
-                        <option value="volunteer">Volunteer</option>
-                        <option value="Enroll">Enroll</option>
-                    </select>
-                </div>
-                <div className="field">
                     <label for="message">Message</label>
                     <textarea name="message" id="message" rows="5" />
                 </div>

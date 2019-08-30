@@ -12,10 +12,11 @@ const Features = () => (
       </a>
       <div className="content">
         <div className="inner">
-          <h2>Sed ipsum dolor</h2>
+          <h2>Cyber Security Taught by Fields Experts</h2>
           <p>
-            Phasellus convallis elit id ullamcorper pulvinar. Duis aliquam
-            turpis mauris, eu ultricies erat malesuada quis. Aliquam dapibus.
+            Ghostwire Academy Instructors are comprised of current Active Duty
+            Cyber Security professionals or Data Forensic Specialists. Meet some
+            of the current instructors.
           </p>
           <ul className="actions">
             <li>
@@ -33,10 +34,10 @@ const Features = () => (
       </a>
       <div className="content">
         <div className="inner">
-          <h2>Feugiat consequat</h2>
+          <h2>Teaching the next generation of Cyber Security!</h2>
           <p>
-            Phasellus convallis elit id ullamcorper pulvinar. Duis aliquam
-            turpis mauris, eu ultricies erat malesuada quis. Aliquam dapibus.
+          We believe that creating a highly skilled and competent generation is critical
+           to protecting our communities from future cyber attacks and ensuring our Nation's economic success.
           </p>
           <ul className="actions">
             <li>
