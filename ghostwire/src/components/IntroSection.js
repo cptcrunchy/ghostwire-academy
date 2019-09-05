@@ -5,13 +5,14 @@ const Intro = () => (
 <section id="intro" className="wrapper style1 fullscreen fade-up">
         <div className="inner">
           
-          <iframe controls autoplay
+          <iframe controls autoPlay
            width="1000" 
            height="425"
            src="https://www.youtube-nocookie.com/embed/C6HTUMvvwBI?autoplay=1&controls=1s"
-           frameborder="0" 
+           frameBorder="0" 
+           title="intro video"
            allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" 
-           allowfullscreen>
+           allowFullScreen>
            </iframe>
           <ul className="actions">
             <li>

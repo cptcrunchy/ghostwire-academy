@@ -55,10 +55,9 @@ const Features = () => (
       </a>
       <div className="content">
         <div className="inner">
-          <h2>Ultricies aliquam</h2>
-          <p>
-            Phasellus convallis elit id ullamcorper pulvinar. Duis aliquam
-            turpis mauris, eu ultricies erat malesuada quis. Aliquam dapibus.
+          <h2>Organizational Growth from Within</h2>
+          <p>Graduates of Ghostwire Academy are asked to help volunteer for the next cohort of students.
+            Ghostwire Academy instructors are rewarded and incentivized through the "Pay it Forward" program. 
           </p>
           <ul className="actions">
             <li>

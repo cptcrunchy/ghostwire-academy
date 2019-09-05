@@ -12,7 +12,7 @@ const FormSection = () => (
         <h2>Enroll Today</h2>
         <p>
         Ghostwire Academy is available to all between the ages 13-17.
-        All students must have compelted the <Link>IT Fundamentals course</Link>.
+        All students must have compelted the <Link to="/">IT Fundamentals course</Link>.
         Registration for IT Fundamentals is first come first serve as class become available.
         Enrollment into continuation courses is exclusively available when the student has completed holds the pre requisite
          certification unless the student has already obtained the pre requisite certifications. 
