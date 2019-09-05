@@ -3,28 +3,28 @@ import '../assets/sass/main.scss';
 
 const SocialMedia = () => (
     <li>
-        <h3>Social</h3>
+        <h3>Social Media</h3>
         <ul className="icons">
-            <li>
+            {/* <li>
                 <a href="/#" className="fa-twitter">
                 <span className="label">Twitter</span>
                 </a>
-            </li>
+            </li> */}
             <li>
                 <a href="https://www.facebook.com/GhostWireSA/" className="fa-facebook">
                     <span className="label">Facebook</span>
                 </a>
             </li>
-            <li>
+            {/* <li>
                 <a href="/#" className="fa-instagram">
                     <span className="label">Instagram</span>
                 </a>
-            </li>
-            <li>
+            </li> */}
+            {/* <li>
                 <a href="/#" className="fa-linkedin">
                     <span className="label">LinkedIn</span>
                 </a>
-            </li>
+            </li> */}
         </ul>
     </li>
 );

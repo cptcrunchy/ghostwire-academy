@@ -9,8 +9,8 @@ export class Sidebar extends Component {
       tabs: [
         { content: 'Welcome', href: 'intro' },
         { content: 'Who we are', href: 'one' },
-        { content: 'What we do', href: 'two' },
-        { content: 'Get in touch', href: 'three' },
+        { content: 'About the Program', href: 'two' },
+        { content: 'Enroll', href: 'three' },
       ],
     };
   }

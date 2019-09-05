@@ -6,11 +6,15 @@ const Form = () => (
         <form method="post" data-netlify="true" action="/generic">
             <div className="fields">
                 <div className="field half">
-                    <label htmlFor="name">Name</label>
-                    <input type="text" name="name" id="name" />
+                    <label htmlFor="name">Parent / Guardian Name</label>
+                    <input type="text" name="parentName" id="parentName" />
                 </div>
                 <div className="field half">
-                    <label htmlFor="email">Email</label>
+                    <label htmlFor="name">Student Name</label>
+                    <input type="text" name="studentName" id="studentName" />
+                </div>
+                <div className="field">
+                    <label htmlFor="email">Contact Email</label>
                     <input type="text" name="email" id="email" />
                 </div>
                 <div className="field">

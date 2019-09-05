@@ -7,6 +7,9 @@ import pic3 from '../images/gwa-students-certification.jpg';
 const Features = () => (
   <section id="one" className="wrapper style2 spotlights">
     <section>
+      <h2 className="header">Ghostwire Academy. A Non-profit Cyber Security Bootcamp</h2>
+    </section>
+    <section>
       <a href="/#" className="image" alt="image">
         <img src={pic1} alt="Ghostwire Academy Instructor" className="portrait" data-position="center center" />
       </a>
@@ -20,7 +23,7 @@ const Features = () => (
           </p>
           <ul className="actions">
             <li>
-              <Link className="button" to="/generic">
+              <Link className="button" to="/elements">
                 Learn more
               </Link>
             </li>

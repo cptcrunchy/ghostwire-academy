@@ -1,5 +1,4 @@
 import React from 'react';
-import Scroll from '../components/Scroll';
 
 const Intro = () => (
 <section id="intro" className="wrapper style1 fullscreen fade-up">
@@ -14,15 +13,6 @@ const Intro = () => (
            allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" 
            allowFullScreen>
            </iframe>
-          <ul className="actions">
-            <li>
-              <Scroll type="id" element="one">
-                <a href="#one" className="button">
-                  Learn more
-                </a>
-              </Scroll>
-            </li>
-          </ul>
         </div>
       </section>
 );

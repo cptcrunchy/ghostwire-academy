@@ -1,5 +1,5 @@
 import React from 'react';
-import { Link } from 'gatsby';
+
 import '../assets/sass/main.scss';
 
 const Description = () => (
@@ -70,13 +70,6 @@ const Description = () => (
                 </p>
             </section>
         </div>
-        <ul className="actions">
-            <li>
-                <Link className="button" to="/generic">
-                Learn more
-                </Link>
-            </li>
-        </ul>
     </div>
 </section>
 );
