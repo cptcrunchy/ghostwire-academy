@@ -1,17 +1,18 @@
 import React from 'react';
 import { Link } from 'gatsby';
-import pic1 from '../images/gwa-classroom-instructor.jpg';
-import pic2 from '../images/gwa-classroom-students.jpg';
-import pic3 from '../images/gwa-students-certification.jpg';
 
-const Features = () => (
+import pic1 from '../data/gwa/instructor.jpg';
+import pic2 from '../data/gwa/students1.jpg';
+import pic3 from '../data/gwa/studentsCertification.jpg';
+
+const Features = ({ node }) => (
   <section id="one" className="wrapper style2 spotlights">
     <section>
       <h2 className="header">Ghostwire Academy. A Non-profit Cyber Security Bootcamp</h2>
     </section>
     <section>
       <a href="/#" className="image" alt="image">
-        <img src={pic1} alt="Ghostwire Academy Instructor" className="portrait" data-position="center center" />
+        <img src={pic1} className="portrait" alt="Ghostwire Academy Instructor" data-position="25% 25%" />
       </a>
       <div className="content">
         <div className="inner">
@@ -33,7 +34,7 @@ const Features = () => (
     </section>
     <section>
       <a href="/#" className="image">
-        <img src={pic2} alt="" className="portrait" data-position="top center" />
+        <img src={pic2} alt="" className="portrait" data-position="25% 25%" />
       </a>
       <div className="content">
         <div className="inner">
@@ -74,5 +75,4 @@ const Features = () => (
     </section>
   </section>
 );
-
 export default Features;
