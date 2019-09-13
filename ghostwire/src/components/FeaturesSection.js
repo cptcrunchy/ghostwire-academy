@@ -5,7 +5,7 @@ import pic1 from '../data/gwa/instructor.jpg';
 import pic2 from '../data/gwa/students1.jpg';
 import pic3 from '../data/gwa/studentsCertification.jpg';
 
-const Features = ({ node }) => (
+const Features = () => (
   <section id="one" className="wrapper style2 spotlights">
     <section>
       <h2 className="header">Ghostwire Academy. A Non-profit Cyber Security Bootcamp</h2>
