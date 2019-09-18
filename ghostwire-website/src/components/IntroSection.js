@@ -7,7 +7,7 @@ const Intro = () => (
           <iframe controls
            width="1000" 
            height="425"
-           src="https://www.youtube-nocookie.com/embed/C6HTUMvvwBI?autoplay=1&controls=1s"
+           src="https://www.youtube-nocookie.com/embed/C6HTUMvvwBI?autoplay=0&controls=1s"
            frameBorder="0" 
            title="intro video"
            allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" 
