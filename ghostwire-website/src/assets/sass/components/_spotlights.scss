@@ -8,25 +8,36 @@
 
 	.spotlights {
 		> section {
-			@include vendor('display', 'flex');
-			@include vendor('flex-direction', 'row');
-			min-height: 22.5em;
+			display: grid;
+			grid-template-columns: repeat(2,max-content);
+			grid-template-rows: max-content;
+			justify-content: center;
+			align-items: center;
+			grid-auto-flow: row;
 
 			body.is-ie & {
 				min-height: 0;
 			}
 
 			> .image {
-				background-position: center center;
-				background-size: cover;
-				border-radius: 0;
-				display: block;
 				position: relative;
-				width: 25em;
+				width: 15em;
+				height: 15em;
+				overflow: hidden;
+				border-radius: 0;
 
 				img {
-					border-radius: 0;
-					display: block;
+					position: absolute;
+					left: 50%;
+					top: 50%;
+					height: 100%;
+					width: auto;
+					transform: translate(-50%, -50%);
+				}
+
+				img.portrait {
+					width: 100%;
+					height: auto;
 				}
 
 				&:before {
@@ -44,7 +55,7 @@
 			}
 
 			> .content {
-				@include padding(4em, 5em);
+				@include padding(2em, 5em);
 				@include vendor('display', 'flex');
 				@include vendor('flex-direction', 'column');
 				@include vendor('justify-content', 'center');
