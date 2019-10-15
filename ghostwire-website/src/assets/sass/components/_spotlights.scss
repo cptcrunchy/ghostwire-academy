@@ -25,6 +25,7 @@
 				height: 15em;
 				overflow: hidden;
 				border-radius: 0;
+				margin: 0 0 0 4em;
 
 				img {
 					position: absolute;
@@ -72,9 +73,6 @@
 				}
 			}
 
-			&:nth-child(1) {
-			}
-
 			&:nth-child(2) {
 				background-color: rgba(0,0,0,0.05);
 			}
@@ -101,7 +99,7 @@
 
 			@include breakpoint('<=xlarge') {
 				> .content {
-					@include padding(4em, 4em);
+					@include padding(4em, 2em);
 				}
 			}
 

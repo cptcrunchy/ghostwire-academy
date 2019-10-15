@@ -376,7 +376,6 @@ const SecondPage = () => (
 
           <section>
             <h2>Form</h2>
-            <form method="post" action="#">
               <div class="row gtr-uniform">
                 <div class="col-6 col-12-xsmall">
                   <input
@@ -466,7 +465,6 @@ const SecondPage = () => (
                   </ul>
                 </div>
               </div>
-            </form>
           </section>
 
           <section>
