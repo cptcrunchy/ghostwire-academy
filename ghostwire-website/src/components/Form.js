@@ -3,7 +3,7 @@ import '../assets/sass/main.scss';
 
 const Form = () => (
     <section>
-        <form method="POST" name="enrollmentForm" data-netlify="true" >
+        <form method="POST" name="enrollmentForm" data-netlify="true" action="/success" >
             <div className="fields">
                 <div className="field half">
                     <label htmlFor="name">Parent / Guardian Name</label>
