@@ -6,28 +6,18 @@ const Description = () => (
 <section id="two" className="wrapper style2-alt fade-up">
     <div className="inner">
         <h2>How does Ghostwire Academy's Program work?</h2>
-        <p>To ensure the highest quality of education, Ghostwire has a tiered approach
-            to ensure students can fully understand the core concepts of Cyber Security.
-            Ghostwire Academy is supported by military veterans, current Cyber Security operatives,
-            Graduates and Parents.
+        <p>GhostWire&#39;s mission is to ensure that our youth are inspired and empowered to pursue careers in IT and
+Cyber Security. We believe that creating a highly skilled and competent generation is critical to
+protecting our communities from future cyber attacks and ensuring our Nation&#39;s economic success.
         </p>
         <div className="features">
             <section>
                 <span className="icon major fa-file-o" />
                 <h3>Register Student for IT Fundamentals (ITF)</h3>
-                <p>ITF is the only single certification that covers all areas of 
-                    IT foundations. Students will learn about software, hardware, security, networking,
-                    and basic IT literacy. Students will prepare for the CompTIA IT Fundamentals exam,
-                    and any student that passes our pre-test, will get to take the CompTIA test for free!
-                </p>
-            </section>
-            <section>
-                <span className="icon major fa-lock" />
-                <h3>Introduction to Digital Forensics</h3>
-                <p>In the Digital Forensics class the students will learn the basics of how the Windows
-                    operating sytem stores data, what happens to a file after it's deleted, how files can
-                    be hidden, and much more. This is more advanced topic so it is recommended that students
-                    have already take IT Fundamentals.
+                <p>ITF is the only single certification that covers all areas of IT foundations. Students will learn
+about software, hardware, security, networking, and basic IT literacy. Students will prepare for
+the CompTIA IT Fundamentals exam, and any student that passes our pre-test, will get to take
+the CompTIA test for free!
                 </p>
             </section>
             <section>
@@ -44,7 +34,7 @@ const Description = () => (
             </section>
             <section>
                 <span className="icon major fa-desktop" />
-                <h3>Introduction and Certification for CompTIA Networking+</h3>
+                <h3>Introduction and Certification for CompTIA Security+</h3>
                 <p>Network+ ensures an IT professional has the knowledge and skills to:</p>
                 <ul>
                     <li>Design and implement functional networks</li>
@@ -64,9 +54,22 @@ const Description = () => (
             </section>
             <section>
                 <span className="icon major fa-diamond" />
-                <h3>Opportunities for Career Advancement.</h3>
-                <p>Students are provided with internship, workforce, and scholarship opportunities as the NPO grows
-                    and provides them. Graduates are then asked to volunteer and help the next cohort of students.
+                <h3>STEM courses with a concentration on Cyber Security</h3>
+                <p>Ghostwire Academy has instructor volunteers with a wide range of skills. As instructors with
+concentrated skillset volunteer to teach we have been able to host classes in the following topics!
+Ethical Hacking, Robotics, Computer Coding ( Java, Java Script, C+, Python and others).
+We are always looking to host these types of STEM courses! Contact us if you would like to
+volunteer in this area!</p>
+            </section>
+            <section>
+                <span className="icon major fa-lock" />
+                <h3>Opportunities for Career Advancement</h3>
+                <p>Ghostwire Academy advocates for students to be provided with internship, workforce, and
+scholarship opportunities! We are constantly looking to create relationships with leading cyber
+security companies and organizations to give our young adults the best foot forward in cyber
+security! If you would like to sponsor GhostWire Academy and play a role in provided these
+opportunities, we would be proud to show you what we have accomplished and what we can do
+together to advance Cyber Security in the city!
                 </p>
             </section>
         </div>

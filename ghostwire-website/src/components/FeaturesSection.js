@@ -18,9 +18,10 @@ const Features = () => (
         <div className="inner">
           <h2>Cyber Security Taught by Fields Experts</h2>
           <p>
-            Ghostwire Academy Instructors are comprised of current Active Duty
-            Cyber Security professionals or Data Forensic Specialists. Meet some
-            of the current instructors.
+          Ghostwire Academy Instructors are comprised of military Active Duty and veteran Cyber
+Security professionals with years of experience in protecting our nations information systems.
+Our team is completely comprised of volunteers with a passion for our efforts. If you would like
+to volunteer click the link below and meet some of the current instructors.
           </p>
           <ul className="actions">
             <li>
@@ -40,8 +41,9 @@ const Features = () => (
         <div className="inner">
           <h2>Teaching the next generation of Cyber Security!</h2>
           <p>
-          We believe that creating a highly skilled and competent generation is critical
-           to protecting our communities from future cyber attacks and ensuring our Nation's economic success.
+          We believe that creating a highly skilled and competent generation sharpened in cyber security is
+critical to protecting our communities from future cyber attacks and ensuring our Nation&#39;s
+economic success.
           </p>
           <ul className="actions">
             <li>
@@ -59,9 +61,14 @@ const Features = () => (
       </a>
       <div className="content">
         <div className="inner">
-          <h2>Organizational Growth from Within</h2>
-          <p>Graduates of Ghostwire Academy are asked to help volunteer for the next cohort of students.
-            Ghostwire Academy instructors are rewarded and incentivized through the "Pay it Forward" program. 
+          <h2>A Life Cycle model that encourages volunteerism, STEM,
+and technical development</h2>
+          <p>Graduates are encouraged to volunteer with Ghostwire Academy. We ask old and new graduates
+to continue their activity in Ghostwire Academy through teaching the next generation of youth to
+curriculum development on certification courses. Instructors and volunteers are rewarded with
+continuing education credits to maintain their newly earned certifications and incentivized
+through the &quot;Pay it Forward&quot; program, where volunteers who have reached a milestone of
+volunteer hours could receive testing vouchers for higher level cyber security certifications. 
           </p>
           <ul className="actions">
             <li>
