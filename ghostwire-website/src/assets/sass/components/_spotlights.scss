@@ -9,35 +9,29 @@
 	.spotlights {
 		> section {
 			display: grid;
-			grid-template-columns: repeat(2,max-content);
+			grid-template-columns: max-content max-content;
 			grid-template-rows: max-content;
 			justify-content: center;
 			align-items: center;
 			grid-auto-flow: row;
+			padding: 0 10px;
 
 			body.is-ie & {
 				min-height: 0;
 			}
 
 			> .image {
-				position: relative;
-				width: 15em;
-				height: 15em;
+				grid-column: 1/2;
+				width: auto;
+				height: auto;
 				overflow: hidden;
 				border-radius: 0;
-
-				img {
-					position: absolute;
-					left: 50%;
-					top: 50%;
-					height: 100%;
-					width: auto;
-					transform: translate(-50%, -50%);
-				}
+				margin: 0;
 
 				img.portrait {
-					width: 100%;
+					width: 240px;
 					height: auto;
+					max-height: 250px;
 				}
 
 				&:before {
@@ -72,9 +66,6 @@
 				}
 			}
 
-			&:nth-child(1) {
-			}
-
 			&:nth-child(2) {
 				background-color: rgba(0,0,0,0.05);
 			}
@@ -101,7 +92,7 @@
 
 			@include breakpoint('<=xlarge') {
 				> .content {
-					@include padding(4em, 4em);
+					@include padding(4em, 2em);
 				}
 			}
 
