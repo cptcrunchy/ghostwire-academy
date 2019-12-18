@@ -3,7 +3,7 @@ import '../assets/sass/main.scss';
 
 const Form = () => (
     <section>
-        <form method="POST" name="enrollmentForm" data-netlify="true" action="/generic">
+        <form method="POST" name="enrollmentForm" data-netlify="true">
             <div className="fields">
                 <div className="field half">
                     <label htmlFor="name">Parent / Guardian Name</label>
@@ -27,6 +27,7 @@ const Form = () => (
                     <button type="submit" className="button submit">Send</button>
                 </li>
             </ul>
+            <input type="hidden" name="form-name" value="enrollmentForm" />
         </form>
     </section>
 );
