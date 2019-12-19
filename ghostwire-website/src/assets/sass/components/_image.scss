@@ -57,4 +57,13 @@
 				width: 100%;
 			}
 		}
+		&.banner {
+			display: block;
+			margin: 0 0 (_size(element-margin) * 0.75) 0;
+			width: 100%;
+			
+			img {
+				max-width: 20rem;
+			}
+		}
 	}
