@@ -7,7 +7,7 @@ const Footer = () => (
       <ul className="menu">
         <li>&copy; Ghostwire Academy. All rights reserved.</li>
         <li>
-          Design: <a href="#">Azogue-Media</a>
+          Design: <a href="#">Azo-Media</a>
         </li>
       </ul>
     </div>
